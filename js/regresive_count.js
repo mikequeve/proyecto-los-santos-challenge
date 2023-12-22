@@ -7,7 +7,7 @@ export default function regresiveCount(){
     $seconds = d.getElementById('seconds');
 
     //fecha a futuro para el conteo
-    const countdownDate = new Date('December 22, 2023 08:00:00').getTime(); //getTime() para obtener el tiempo en milisegundos hasta la fecha programada.
+    const countdownDate = new Date('December 22, 2024 08:00:00').getTime(); //getTime() para obtener el tiempo en milisegundos hasta la fecha programada.
 
     setInterval(function(){
         //obtener fecha actual y milisegundos
